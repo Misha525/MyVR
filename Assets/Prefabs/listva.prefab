@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 402059058933441310}
   - component: {fileID: 569258021260209015}
   - component: {fileID: 6361276150285926065}
+  - component: {fileID: 1124059778490258017}
   m_Layer: 0
   m_Name: Sphere_12
   m_TagString: Untagged
@@ -133,7 +134,7 @@ Transform:
   m_GameObject: {fileID: 172506673133933299}
   serializedVersion: 2
   m_LocalRotation: {x: 0.16235574, y: 0.97108215, z: -0.02898545, w: 0.17262676}
-  m_LocalPosition: {x: 23.82, y: 11.911583, z: 34.32186}
+  m_LocalPosition: {x: 23.85, y: 12, z: 34.32}
   m_LocalScale: {x: 3.4800003, y: 3.48, z: 3.48}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -210,6 +211,27 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1124059778490258017
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172506673133933299}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab87c592d81e1e64b85fbe09f59ee605, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &792795203088612748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1189,7 @@ GameObject:
   - component: {fileID: 6391047799884320244}
   - component: {fileID: 523235505471306754}
   - component: {fileID: 5843541192798670907}
+  - component: {fileID: 342189724270055534}
   m_Layer: 0
   m_Name: Sphere_16
   m_TagString: Untagged
@@ -1260,6 +1283,27 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &342189724270055534
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902607198774183146}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80e760fd23632a14a98aa61a52d44273, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5492083919463539406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,6 +1526,7 @@ GameObject:
   - component: {fileID: 2281900358002010995}
   - component: {fileID: 8839377920556558492}
   - component: {fileID: 8562732310099673713}
+  - component: {fileID: 102294641945845977}
   m_Layer: 0
   m_Name: Sphere_4
   m_TagString: Untagged
@@ -1575,6 +1620,27 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &102294641945845977
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5707161343066291554}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c509b1c585be1a44696926a4930dfbf9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6276377460108545850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1653,7 @@ GameObject:
   - component: {fileID: 9028224160810058374}
   - component: {fileID: 6742131649610306457}
   - component: {fileID: 4288263638636541451}
+  - component: {fileID: 1141425079756713945}
   m_Layer: 0
   m_Name: Sphere_1
   m_TagString: Untagged
@@ -1680,6 +1747,27 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1141425079756713945
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6276377460108545850}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a9adb9c9176f9e42878190a2a2d9b49, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6350218872147133811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1902,6 +1990,7 @@ GameObject:
   - component: {fileID: 7652849809813613939}
   - component: {fileID: 3099351873546873876}
   - component: {fileID: 7592054000941591566}
+  - component: {fileID: 8264924379914846636}
   m_Layer: 0
   m_Name: Sphere_11
   m_TagString: Untagged
@@ -1918,7 +2007,7 @@ Transform:
   m_GameObject: {fileID: 7809099151336343080}
   serializedVersion: 2
   m_LocalRotation: {x: 0.16235574, y: 0.97108215, z: -0.02898545, w: 0.17262676}
-  m_LocalPosition: {x: 25.295322, y: 9.551836, z: 35.0713}
+  m_LocalPosition: {x: 25.295322, y: 10.331836, z: 35.9213}
   m_LocalScale: {x: 3.4800003, y: 3.48, z: 3.48}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1995,6 +2084,27 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &8264924379914846636
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7809099151336343080}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bf818ed44352d1f4ebdac330588e5ba1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8174307036993306161
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,6 +2380,7 @@ GameObject:
   - component: {fileID: 5670711775542035178}
   - component: {fileID: 1333301544853572358}
   - component: {fileID: 200157653715140979}
+  - component: {fileID: 4317562157398669353}
   m_Layer: 0
   m_Name: Sphere_8
   m_TagString: Untagged
@@ -2286,7 +2397,7 @@ Transform:
   m_GameObject: {fileID: 9217767097682147267}
   serializedVersion: 2
   m_LocalRotation: {x: 0.16235574, y: 0.97108215, z: -0.02898545, w: 0.17262676}
-  m_LocalPosition: {x: 22.50423, y: 9.741969, z: 35.871567}
+  m_LocalPosition: {x: 22.50423, y: 10.521969, z: 36.721565}
   m_LocalScale: {x: 3.4800003, y: 3.48, z: 3.48}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2363,3 +2474,24 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &4317562157398669353
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217767097682147267}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa960f085d8dce34a8e12861d1296ca3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
