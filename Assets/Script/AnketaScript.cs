@@ -45,7 +45,7 @@ public class AnketaScript : MonoBehaviour
                ageTmpText.text = "Нужно только число!";
             }
         } else {
-            ageTmpText.text = "Заполните поле!!";
+            ageTmpText.text = "Заполните поле!";
         }
      }
 } 
