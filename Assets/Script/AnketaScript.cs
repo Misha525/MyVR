@@ -35,7 +35,7 @@ public class AnketaScript : MonoBehaviour
      public void OnButtonUserAge() {
         Debug.Log("AnketaSktipt::OnButtonUserAge(); -- ageInputField.text" + ageInputField.text);
         string ageString = ageInputField.text;
-        if (ageString != null && ageString.Length > 0) {
+        if (ageString != null && ageString.Length > 0 && int.Parse(ageString) > 0) {
             if (int.TryParse(ageString, out int ageInt)) {
                 // int adeInt = int.Parse(ageString);
                 DateTime dateTime = DateTime.Now;
@@ -44,9 +44,11 @@ public class AnketaScript : MonoBehaviour
             } else {
                ageTmpText.text = "Нужно только число!";
             }
+        } else if (int.Parse(ageString) <= 0) {
+            ageTmpText.text = "Вам слишком мало!";
         } else {
             ageTmpText.text = "Заполните поле!";
-        }
+        } 
      }
 } 
      
