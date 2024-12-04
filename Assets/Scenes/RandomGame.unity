@@ -980,8 +980,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0417\u0430\u0433\u0430\u0434\u0430\u043D\u043E\u0435 \u0447\u0438\u0441\u043B\u043E
-    \u0431\u043E\u043B\u044C\u0448\u0435/\u043C\u0435\u043D\u044C\u0448\u0435/\u0440\u0430\u0432\u043D\u043E"
+  m_text: "\u0421\u043C\u043E\u0436\u0435\u0448\u044C \u0443\u0433\u0430\u0434\u0430\u0442\u044C
+    \u043C\u043E\u0451 \u0447\u0438\u0441\u043B\u043E?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cdadf51d65fa58e43ae8ccf5f13468c0, type: 2}
   m_sharedMaterial: {fileID: 1803972406228889035, guid: cdadf51d65fa58e43ae8ccf5f13468c0, type: 2}
@@ -1008,8 +1008,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.7
-  m_fontSizeBase: 37.7
+  m_fontSize: 37.98
+  m_fontSizeBase: 37.98
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1018,11 +1018,11 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_characterSpacing: -6
+  m_wordSpacing: -0.44
+  m_lineSpacing: 0.2
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -0.27
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
